@@ -1,0 +1,25 @@
+.btn:focus {
+    color: #FFFFFF;
+    background: #ECA846;
+}
+
+.item.boxOpen {
+    transform: rotateY(0deg);
+}
+
+.item::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #ECA846;
+    transition: 0.25s;
+    transform: rotateY(0deg);
+    mask: url(../images/Chicken.svg);
+    mask-size: contain;
+    backface-visibility: hidden;
+}
+
+.boxOpen:after,
+.boxMatch:after {
+    transform: rotateY(180deg);
+}

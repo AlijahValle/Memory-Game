@@ -1,0 +1,75 @@
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+body,
+button {
+    margin: 0em;
+    padding: 0em;
+    color: #4a4a4a;
+    font-family: "Inter";
+    background-color: transparent;
+    border: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4E2;
+    height: 100vh;
+}
+
+.container {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    gap: 1.875em;
+    padding: 0.625em;
+    width: 25em;
+    align-items: center;
+    border-radius: 0.625em;
+}
+
+.btn {
+    padding: 0.625em 0.938em;
+    background: #fff;
+    font-size: 0.8em;
+    cursor: pointer;
+    font-weight: 600;
+    color: #ECA846;
+    width: fit-content;
+    border-radius: 0.313em;
+}
+
+.game {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625em;
+    justify-content: center;
+}
+
+.tag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.938em;
+    padding: 0.625em 0.938em;
+    background-color: #ffff;
+}
+
+.item {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    transform: rotateY(180deg);
+    transition: 0.25s;
+}
+
+.item img {
+    width: 4.063em;
+}
